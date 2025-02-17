@@ -11,6 +11,11 @@ final ThemeData appTheme = ThemeData(
       fontWeight: FontWeight.w700,
       color: AppColors.blackColor,
     ),
+    displayMedium: GoogleFonts.raleway(
+      fontSize: 28,
+      fontWeight: FontWeight.w700,
+      color: AppColors.blackColor,
+    ),
     bodyMedium: GoogleFonts.poppins(
       fontSize: 13.8,
       fontWeight: FontWeight.w500,
@@ -19,7 +24,12 @@ final ThemeData appTheme = ThemeData(
     labelLarge: GoogleFonts.nunitoSans(
       fontSize: 22,
       fontWeight: FontWeight.w300,
-      color: AppColors.whiteColor,
+      color: AppColors.blackColor,
+    ),
+    labelSmall: GoogleFonts.nunitoSans(
+      fontSize: 19,
+      fontWeight: FontWeight.w300,
+      color: AppColors.blackColor,
     ),
   ),
   inputDecorationTheme: InputDecorationTheme(
